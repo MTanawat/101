@@ -23,6 +23,7 @@ async def faces_recognition(image_upload: UploadFile = File(...)):
     # Load an image
     image = Image.open(io.BytesIO(data))
     # cv2.cvt()
+    # cv2.cvt()2
     # Detect face(s) and encode them
     face_locations = face_recognition.face_locations(np.array(image))
     face_encodings = face_recognition.face_encodings(np.array(image), face_locations)
