@@ -9,7 +9,7 @@ known_faces = [
      ('nuke', '002.jpg'),
     ('Jennie', 'jennie.jpg'),
     ('Rose', 'rose.jpg'),
-    ('Jisoo', 'jisoo.jpg')
+    ('Jiso2o', 'jisoo.jpg')
 ]
 
 # Encode faces from images
