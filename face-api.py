@@ -27,6 +27,7 @@ async def faces_recognition(image_upload: UploadFile = File(...)):
     face_locations = face_recognition.face_locations(np.array(image))
     face_encodings = face_recognition.face_encodings(np.array(image), face_locations)
     ## new model 
+    # new moel2 
     draw = ImageDraw.Draw(image)
     face_names = []
 
